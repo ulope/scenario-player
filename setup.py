@@ -9,11 +9,9 @@ setup(
             '/*.yml',
         ],
     },
-
     entry_points={
         'console_scripts': [
             'scenario-player=scenario_player.__main__:main',
-            'scenario-player-nightlies=scenario_player.scenarios.__init__:run_builtin_scenarios',
         ],
     },
     requires=[
